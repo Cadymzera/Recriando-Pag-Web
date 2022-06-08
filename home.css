@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Inter', sans-serif;
+}
+
+.card-list{
+	width: 100%;
+	padding: 80px 135px;
+	height: 666px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.delivering {
+	width: 1170px;
+	height: 49px;
+	font-weight: 700;
+	font-size: 32px;
+	/* padding: 3px 0; */
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 15px;
+}
+
+.sub-delivering {
+	width: 1170px;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 36px;
+	margin-bottom: 40px;		
+}
+
+.info {
+	width: 1170px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.bot-learn {
+	border: 1px solid #d3d3d3;
+	border-radius: 16px;
+	padding: 8px 16px; 
+	width: 146px;
+	height: 48px;
+	background-color: #FFFFFF;
+	font-weight: 700;
+	font-size: 18px;
+	color: #6C5CE7;	
+}
+
+.info li {
+	text-align: left;
+	width: 270px;
+	height: 330px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.info li h3 {
+	font-weight: 700;
+	font-size: 24px;
+	margin: 24px 0 16px;
+	
+}
+
+.icons-card {
+	width: 70px 70px;
+}
+
+li p {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 32px;
+	margin-bottom: 8px;
+}
