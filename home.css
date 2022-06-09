@@ -6,87 +6,104 @@
 	box-sizing: border-box;
 	font-family: 'Inter', sans-serif;
 }
-
-.card-list{
+/* Cabeçalho */
+.nav {
 	width: 100%;
-	padding: 80px 135px;
-	height: 666px;
+	height: 96px;
+	background-color: #FFFFFF;
 	display: flex;
-	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	margin-bottom: 80px;
 }
 
-.delivering {
-	width: 1170px;
-	height: 49px;
+.icon-grid {
+	width: 70px;
+	height: 64px;
+	float: left;
+}
+
+.logo{
+	width: 200px;
+	height: 64px;
 	font-weight: 700;
-	font-size: 32px;
+	font-size: 48px;
+	line-height: 56px;
 	display: flex;
-	justify-content: flex-start;
-	align-items: center;
-	margin-bottom: 15px;
+	align-items: flex-end;
+	letter-spacing: -1px;
+	margin: 16px 70px 16px 135px;
 }
 
-.sub-delivering {
-	width: 1170px;
-	font-weight: 400;
-	font-size: 24px;
-	line-height: 36px;
-	margin-bottom: 40px;		
-}
-
-.info {
-	width: 1170px;
+.nav-list li {
 	display: flex;
-	justify-content: space-between;
-}
-
-.bot-learn {
-	border: 1px solid #d3d3d3;
-	border-radius: 16px;
-	padding: 8px 16px; 
-	width: 146px;
-	height: 48px;
-	background-color: #FFFFFF;
 	font-weight: 700;
-	font-size: 18px;
-	color: #6C5CE7;	
-}
-
-.info li {
-	text-align: left;
-	width: 270px;
-	height: 330px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: flex-start;
-}
-
-.info li h3 {
-	font-weight: 700;
-	font-size: 24px;
-	margin: 24px 0 16px;
-}
-
-.icons-card {
-	width: 70px 70px;
-}
-
-li p {
-	font-weight: 400;
 	font-size: 18px;
 	line-height: 32px;
-	margin-bottom: 8px;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.2px;
+	color: #6C5CE7;
 }
 
+.bot-login {
+	width: 170px;
+	height: 64px;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 36px;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.25px;
+	border-radius: 999px;
+	margin: 16px 135px 16px 100px;
+	background-color: #2D3436;
+	color:#FFFFFF;
+}
 
+/* Iniciando a primeira parte do conteúdo principal */
+.box-main {
+	width: 1440px;
+	height: 755px;
+}
+
+.box-title {
+	width: 1170px;
+	height: 104px;
+	display: flex;
+	text-align: center;
+	letter-spacing: -3px;
+	margin: 0 135px 0 135px;
+}
+
+.title {
+	font-weight:800;
+	font-size: 96px;
+	line-height: 104px;
+	color: #2D3436;
+}
+
+.box-sub-title {
+	width: 770px;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: -1px;
+}
+
+.sub-title {
+	font-weight: 900;
+	font-size: 64px;
+	line-height: 77px;
+	color: #2D3436;
+}
+
+/* Terceira parte do conteúdo principal */
 .offers {
 	width: 100%;
 	height: 882px;
 	padding: 29px 435px;
-	border: 1px solid black;
 }
 
 .pricing {
@@ -97,7 +114,6 @@ li p {
 	text-align: center;
 	align-items: center;
 	letter-spacing: -1px;
-	/* margin: 29px 435px 0; */
 	margin-bottom: 34px;
 	color: #2D3436;
 }
@@ -262,4 +278,77 @@ li p {
 	color: #6C5CE7;
 }
 
+/* Quarta parte do conteúdo principal */
+.card-list{
+	width: 100%;
+	padding: 80px 135px;
+	height: 666px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
 
+.delivering {
+	width: 1170px;
+	height: 49px;
+	font-weight: 700;
+	font-size: 32px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 15px;
+}
+
+.sub-delivering {
+	width: 1170px;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 36px;
+	margin-bottom: 40px;		
+}
+
+.info {
+	width: 1170px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.bot-learn {
+	border: 1px solid #d3d3d3;
+	border-radius: 16px;
+	padding: 8px 16px; 
+	width: 146px;
+	height: 48px;
+	background-color: #FFFFFF;
+	font-weight: 700;
+	font-size: 18px;
+	color: #6C5CE7;	
+}
+
+.info li {
+	text-align: left;
+	width: 270px;
+	height: 330px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.info li h3 {
+	font-weight: 700;
+	font-size: 24px;
+	margin: 24px 0 16px;
+}
+
+.icons-card {
+	width: 70px 70px;
+}
+
+li p {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 32px;
+	margin-bottom: 8px;
+}
